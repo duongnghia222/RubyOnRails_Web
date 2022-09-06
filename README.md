@@ -1,3 +1,5 @@
+# Note
+Delete platform after 'gem "tzinfo-data"' -> cd -> bundle install -> bundle update -> rails server 
 # README
 
 This README would normally document whatever steps are necessary to get the
