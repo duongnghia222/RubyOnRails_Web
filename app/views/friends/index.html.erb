@@ -1,4 +1,4 @@
-<p style="color: green"><%= notice %></p>
+
 
 <h1>Friends</h1>
 
@@ -23,8 +23,9 @@
         <td> <%= friend.phone %></td>
         <td> <%= friend.twitter %></td>
         <td> 
-          <%= link_to 'Show', friend %> 
-
+          <%= link_to 'Show', friend, class:"btn btn-primary btn-sm" %>
+          <%= link_to 'Edit', friend , class:"btn btn-primary btn-sm" %>
+          <%= link_to 'Delete', @friend, method: :delete, class:"btn btn-primary btn-sm" %>
 
         </td>
 
